@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourWebs</title>
+    <link rel="icon" href="fotos/logpestaña.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img src="fotos/logo.png" alt="Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="conocenos.html">Conocenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br><br>
+    <main>
+        <article>
+            <section class="services">
+                <h2>Servicios</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti error, mollitia quo itaque neque ratione debitis et tempora, porro distinctio laudantium nobis vitae eius, harum laboriosam esse nemo hic optio.</p>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Desarrollo Frontend</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente ea cumque possimus doloribus doloremque rerum necessitatibus placeat, odit esse fugiat ab nostrum beatae voluptates! Inventore expedita nesciunt nobis quod ut.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Desarrollo Backend</h3>
+                        <p>Implementación de lógica de servidor y bases de datos.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Diseño Web</h3>
+                        <p>Diseño de sitios web atractivos y funcionales.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Optimización SEO</h3>
+                        <p>Mejora del posicionamiento en motores de búsqueda.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Comercio Electrónico</h3>
+                        <p>Desarrollo de tiendas online y soluciones de e-commerce.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Mantenimiento Web</h3>
+                        <p>Actualización y mantenimiento de sitios web.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Aplicaciones Web</h3>
+                        <p>Creación de aplicaciones web personalizadas.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Consultoría</h3>
+                        <p>Asesoría en estrategias de desarrollo web.</p>
+                    </div>
+                    
+                </div>
+            </section>
+        </article>
+
+
+        <!-- Sección Contacto -->
+        <section id="contacto" class="contacto">
+            <div class="contenedor-contacto">
+                <div class="texto-contacto">
+                    <h2>Estamos aquí para ayudarte</h2>
+                    <p>Si tienes alguna pregunta o necesitas más información sobre nuestros servicios, no dudes en contactarnos. Estaremos encantados de asistirte y proporcionarte toda la información que necesites para llevar tu negocio al siguiente nivel. ¡Esperamos saber de ti pronto!</p>
+                    <div class="contact-info">
+                        <a href="mailto:yourwebs.ar@gmail.com" class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i> yourwebs.ar@gmail.com
+                        </a>
+                        <a href="https://www.linkedin.com/in/tuperfil" class="contact-item" target="_blank">
+                            <i class="fab fa-linkedin contact-icon"></i> LinkedIn
+                        </a>
+                        <a href="https://t.me/tuusuario" class="contact-item" target="_blank">
+                            <i class="fab fa-telegram contact-icon"></i> Telegram
+                        </a>
+                        <a href="https://wa.me/tu-número" class="contact-item" target="_blank">
+                            <i class="fab fa-whatsapp contact-icon"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+                <div class="formulario">
+                    <h2>Contacto</h2>
+                    <form id="contactForm">
+                        <label for="nombre">Nombre y Apellido:</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre y apellido">
+            
+                        <label for="gmail">Correo Electrónico:</label>
+                        <input type="email" id="gmail" name="gmail" required placeholder="Ingresa tu correo electrónico">
+            
+                        <label for="negocio">De qué trata tu negocio:</label>
+                        <input type="text" id="negocio" name="negocio" required placeholder="Describe tu negocio">
+            
+                        <label for="comentarios">Comentarios:</label>
+                        <textarea id="comentarios" name="comentarios" required placeholder="Escribe tus comentarios"></textarea>
+            
+                        <button type="submit" id="submitButton">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+                
+    
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <h5>Contactanos</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-envelope contact-icon"></i> <a href="mailto:yourwebs.ar@gmail.com" target="_blank">Gmail</a></li>
+                        <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/tuperfil" target="_blank">LinkedIn</a></li>
+                        <li><i class="fab fa-telegram"></i> <a href="https://t.me/tuusuario" target="_blank">Telegram</a></li>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/tu-número" target="_blank">WhatsApp</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5>Navegación</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="conocenos.html">Conocenos</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5>Políticas</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="privacidad.html">Política de Privacidad</a></li>
+                        <li><a href="terminos.html">Términos y Condiciones</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <img src="fotos/logo.png" alt="Logo de la empresa" class="footer-logo">
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>&copy; 2024 YourWebs. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
